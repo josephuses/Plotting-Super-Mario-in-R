@@ -113,7 +113,7 @@ mario <- mario %>%
 head(mario)
 ```
 
-Looking at the data `mario`, we can now see that each occurrence of a pair of points belong to only one row, and that each column contains only one variable. Our data is now tidy!
+Looking at the data `mario`, we can now see that each occurrence of a pair of points belong to only one row, and that each column contains only one variable. Our data is now tidy! We have stored the tidied data set in the file `mario_tidy.txt`. You can also download that [here](https://github.com/josephuses/Plotting-Super-Mario-in-R).
 
 # Plotting the coordinates
 
@@ -169,3 +169,4 @@ ggplot(mario, aes(x, y)) +
     legend.position = "none"
   )
 ```
+
